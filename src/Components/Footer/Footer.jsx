@@ -78,9 +78,9 @@ const Footer = () => {
             <Row>
                 <Col lg="3">
                 <div className="logo">
-                    <h2 className='d-flex align-items-center'>
+                    <h2 className='d-flex align-items-center justify-content-center'>
                         <img src={logoImg}
-                         alt='logo' className='kLogo'/>UĞUR T.M.
+                         alt='logo' className='kLogo'/>UĞUR TM
                     </h2>
                 </div>
                         <div className="follows">
@@ -136,38 +136,39 @@ const Footer = () => {
                         </div>
                 </Col>
 
-                <Col lg="3">
-                    <h6 className="fw-bold">Araşdırın</h6>
-                    <ListGroup className='link_list'>
-                        {
-                            footerQucklyLinks.map((item,i)=>(
-                            <ListGroupItem key={i} className="border-0
-                            ps-0 link_item">
-                                <a href={item.url}>{item.display}</a>
-                            </ListGroupItem>
-                            )
-                        )}
-                    </ListGroup>
-                </Col>
+                <Row>
+                    <Col lg="3">
+                        <h6 className="fw-bold">Araşdırın</h6>
+                        <ListGroup className='link_list'>
+                            {
+                                footerQucklyLinks.map((item,i)=>(
+                                <ListGroupItem key={i} className="border-0
+                                ps-0 link_item">
+                                    <a href={item.url}>{item.display}</a>
+                                </ListGroupItem>
+                                )
+                            )}
+                        </ListGroup>
+                    </Col>
 
-                <Col lg="3">
-                    <h6 className="fw-bold">Məlumat</h6>
-                    <ListGroup className='link_list'>
-                        {
-                            footerInfoLinks.map((item,i)=>(
-                            <ListGroupItem key={i} className="border-0
-                            ps-0 link_item">
-                                <a href={item.url}>{item.display}</a>
-                            </ListGroupItem>
-                            )
-                        )}
-                    </ListGroup>
-                </Col>
-
+                    <Col lg="3">
+                        <h6 className="fw-bold">Məlumat</h6>
+                        <ListGroup className='link_list'>
+                            {
+                                footerInfoLinks.map((item,i)=>(
+                                <ListGroupItem key={i} className="border-0
+                                ps-0 link_item">
+                                    <a href={item.url}>{item.display}</a>
+                                </ListGroupItem>
+                                )
+                            )}
+                        </ListGroup>
+                    </Col>
+                </Row>
                 <Col lg="3">
                     <h6 className="fw-bold">Əlaqə</h6>
                     <div>
-                        <p>Email:ugur.tedris.merkezi2017@mail.ru</p>
+                        <a target="_blank" rel="noopener noreferrer" href='https://ugur.tedris.merkezi2017@mail.ru'>Email:ugur.tedris.merkezi2017@mail.ru</a>
 
                         {
                         locationArry.length==0?

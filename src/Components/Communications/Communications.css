@@ -1,0 +1,11 @@
+#Communication{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 9999999999999;
+    font-size: 3.5rem;
+}
+#Communication i {
+    background: #fff819;
+    border-radius: 25%;
+}

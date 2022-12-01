@@ -10,7 +10,7 @@ const NewSletter = () => {
                 <Col lg="12" className='text-center'>
                     <h2 className='mb-4'>Digər Xəbərlərimizi İzləyin</h2>
                     <div className='subscribe'>
-                    <input type="email" placeholder='Nə Baş verir...' />
+                    <input className="form-control" type="text" placeholder='Nələr olur?' />
                     <button className='btn sub_btn'>İzləyin</button>
                     </div>
                 </Col>

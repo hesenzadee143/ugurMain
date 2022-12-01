@@ -1,6 +1,7 @@
 import React,{Fragment} from 'react'
 import AboutUs from '../Components/About-us/AboutUs'
 import ChooseUs from '../Components/Choose-Us/ChooseUs'
+import Communications from '../Components/Communications/Communications'
 import Courses from '../Components/Courses-Section/Courses'
 import FeatureSection from '../Components/Feature-Section/FeatureSection'
 import Footer from '../Components/Footer/Footer'
@@ -25,6 +26,7 @@ const Home = () => {
           <FreeCourse/>
           <NewSletter/>
           <Footer/>
+          <Communications/>
           {/* <Hero/>   */}
     </Fragment>
   )

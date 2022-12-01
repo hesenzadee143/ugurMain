@@ -7,6 +7,7 @@
  }
 .footer{
     background: var(--main_transparent) ;
+    text-align: center;
 }
 .owerflow{
    overflow: auto;
@@ -33,6 +34,7 @@
 }
 .footer a{
     text-decoration: none;
+    color: black;
 }
 .footer .follows span svg{
     height: 30px;
@@ -55,4 +57,23 @@ span:nth-child(5) {
 }
 span:nth-child(6) {
     margin-top: -4px;
+}
+.footer .container .row >* {
+    flex: 1;
+}
+@media(max-width:768px){
+    .footer .container .row >* {
+        flex: 0;
+    }
+    #footer .row .col-lg-3 {
+        flex: 1;
+    }
+    .container > .row {
+        flex-direction: column;
+    }
+    .follows{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }

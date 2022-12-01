@@ -34,3 +34,14 @@
     align-items:center;
     justify-content:space-between;
 }
+@media (max-width:768px){
+    .subscribe{
+        flex-direction: column;
+    }
+ .subscribe input{
+    width: 88%;
+}
+.sub_btn{
+    border-radius: 50px;
+}
+}
