@@ -1,0 +1,36 @@
+:root{
+    --main_color:#a514de;
+    --dark_color:#30143c;
+    --dark_green:#0a2b1e;
+    --cyan_blue:#17bf9d44;
+ }
+.sub_btn,
+.sub_btn:hover{
+    background-color: var(--main_color);
+    color: white;
+    border-radius: 50px;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+}
+.newsletter{
+    background-color: var(--main_color);
+    color: white;
+    padding: 60px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.subscribe input{
+    border: none;
+    outline: none;
+}
+.subscribe{
+    padding: 7px 10px;
+    background: #fff;
+    width:45%;
+    margin:auto;
+    border-radius:50px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}

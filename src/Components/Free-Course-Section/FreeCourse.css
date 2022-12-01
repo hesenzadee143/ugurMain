@@ -1,0 +1,37 @@
+:root{
+    --main_color:#a514de;
+    --dark_color:#30143c;
+    --dark_green:#0a2b1e;
+ }
+ #free_course{
+    margin-top: 10px;
+ }
+.free_course_img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index:9999 ;
+}
+
+.free_btn,
+.free_btn:hover{
+    background-color: var(--main_color);
+    color: white;
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+    z-index: 999999999;
+    padding: 5px 15px;
+    font-size: 0.9rem;
+}
+.free_course_details h6{
+    font-weight: 600;
+    line-height: 2rem;
+}
+.single_free_course{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,44 @@
+:root{
+    --main_color:#a514de;
+    --dark_color:#30143c;
+    --dark_green:#0a2b1e;
+ }
+.single_course_item{
+    padding: 15px;
+}
+.course_img img{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.enroll a{
+    text-decoration: none;
+    font-weight: 600;
+    font-style: 0.9rem;
+    color: var(--main_color);
+}
+.lesson,
+.students,
+.rating{
+    font-style: 0.9rem;
+    color: var(--dark_color);
+    font-weight: 500;
+}
+
+.lesson i,
+.students i,
+.rating i{
+    font-weight: 400;
+}
+.course_title{
+    line-height: 2rem;
+}
+strong{
+    color: var(--main_color);
+}
+.seeAll,.seeAll:hover{
+    border-radius: 50px;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    background-color: var(--main_color);
+    color: white;
+}

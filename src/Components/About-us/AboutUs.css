@@ -1,0 +1,26 @@
+:root{
+    --main_color:#a514de;
+    --dark_color:#30143c;
+ }
+.about_img{
+    height: 85%;
+    width: 90%;
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.counter{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--main_color);
+}
+.counter_title{
+    font-size: 1rem;
+    color: var(--main_color);
+    font-weight: 500;
+}
+.about_content{
+    padding-left: 50px;
+}
