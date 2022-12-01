@@ -17,8 +17,8 @@ const HeroSection = () => {
                         </p>
 
                         <div className="search">
-                            <input type="text" placeholder='Search' />
-                            <button className='btn'>Search</button>
+                            <input type="text" placeholder='Sizə nə maraqlıdır?' />
+                            <button className='btn'>Soruşun</button>
                         </div>
                     
                     </div>

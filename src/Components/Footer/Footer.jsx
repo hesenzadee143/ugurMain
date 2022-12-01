@@ -123,7 +123,7 @@ const Footer = () => {
                            <span> 
                                 {" "}
                                 <a target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@ugurtdrismrkzi">
-                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0,0,256,256">
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0,0,256,256">
                                     <g
                                      fill="#a514de"  stroke="none"    stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
                                      font-family="none" font-weight="none" font-size="none" text-anchor="none" 

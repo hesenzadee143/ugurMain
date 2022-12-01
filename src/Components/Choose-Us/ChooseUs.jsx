@@ -23,7 +23,7 @@ const ChooseUs = () => {
                             🟣 Ödənişsiz sınaq imtahanları;<br />
                             🟣 Təqaüd imkanı;<br />
                             🟣 Endirimli qiymətlər; <br/>
-                               <button className='btn others'> və Digər Əlavə Məşğulliyyətlər</button>
+                               <button className='btn others'> <a href="#courses">və Digər Əlavə Məşğulliyyətlər</a></button>
                         </h4>
                     </div>
                 </Col>

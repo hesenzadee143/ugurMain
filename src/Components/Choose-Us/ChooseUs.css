@@ -15,6 +15,10 @@ padding-right: 50px;
     font-weight: 500;
     line-height: 1.2;
 }
+.others a{
+    text-decoration: none;
+    color: white;
+}
 .choose_img{
     position: relative;
     top: 0;

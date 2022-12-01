@@ -13,3 +13,7 @@ section{
 i,g,svg{
   color: var(--main_color);
 }
+a{
+  text-decoration: none;
+  color: black;
+}

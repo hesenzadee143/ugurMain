@@ -1,3 +1,4 @@
+/* eslint-disable react/style-prop-object */
 import React from 'react'
 import { useRef } from 'react'
 import {Container} from "reactstrap"
@@ -42,7 +43,7 @@ const Header = () => {
                     </h2>
                 </div>
                 <div className="nav d-flex align-items-center gap-5
-                ">
+                " >
                     <div className="nav_menu" ref={menuRef} onClick={menuToggle}>
                         <ul className="nav_list">
                             <li className="nav_item">Əsas Səhifə</li>
