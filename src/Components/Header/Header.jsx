@@ -22,7 +22,7 @@ const Header = () => {
         },
         {
             display:"Imtahan Nəticələri",
-            url:"#examResults"
+            url:"examResults"
         }
     ]
 
@@ -39,7 +39,7 @@ const Header = () => {
                 <div className="logo">
                     <h2 className='d-flex align-items-center'>
                         <img src={logoImg}
-                         alt='logo' className='kLogo'/>UĞUR T.M.
+                         alt='logo' className='kLogo'/>UĞUR TM
                     </h2>
                 </div>
                 <div className="nav d-flex align-items-center gap-5
