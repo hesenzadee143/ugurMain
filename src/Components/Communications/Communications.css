@@ -9,7 +9,11 @@
     background: #fff819;
     border-radius: 25%;
 }
-
+.upPage{
+    background: yellow;
+    border-radius: 20%;
+    margin-right: 10px;
+}
 #Communication > .ficons{
     display: flex;
     flex-direction: column;

@@ -16,7 +16,6 @@ const Communications = () => {
 
   return (
     <section id='Communication'>
-        {/* <a href='#'><i class="ri-arrow-up-line"></i></a> */}
         {gosterIcon?<div className='ficons'>                                
           <span>
             {/* <span>Facebook</span> */}
@@ -60,7 +59,7 @@ const Communications = () => {
             </a>
             </span> 
         </div>
-        :<></>}
+        :<> <a href='#'><i class="upPage ri-arrow-up-line"></i></a></>}
        <i onClick={IconGoster} title="Əlaqə vasitələri" class="ri-chat-smile-2-line"></i>
     </section>
   )
