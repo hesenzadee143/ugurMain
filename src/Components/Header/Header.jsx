@@ -71,13 +71,6 @@ const Header = () => {
             </div>
         </Container>
     </header>
-    
-   
-    {/**outleti yoxla isleyir belede qaslin 
-     * outleti container kimi gotur 
-     * diger ekranlari bosalt sadece ekrani home de ac
-     *  qalanllarina clkickleyende home yerine clicklediyim gelsin 
-     */}
     </>
   )
 }
