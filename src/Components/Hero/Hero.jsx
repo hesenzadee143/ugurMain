@@ -29,7 +29,7 @@ export const Hero = () => {
                     </span>
                 </span>
                 <img src={Cloudimg} alt="" />
-                <div>
+                <div className='meUgur'>
                     <p>
                         Salam. Mənim Adım Uğurdur. Mən sizə bu sayıtda axtardığınızı məlumat və bölmələri tapmaqda kömək edəcəm.
                     </p>
