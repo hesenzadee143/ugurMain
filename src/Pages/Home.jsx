@@ -8,7 +8,7 @@ import Footer from '../Components/Footer/Footer'
 import FreeCourse from '../Components/Free-Course-Section/FreeCourse'
 import Header from '../Components/Header/Header'
 import HeroSection from '../Components/Hero-Section/HeroSection'
-//import { Hero } from '../Components/Hero/Hero'
+import { Hero } from '../Components/Hero/Hero'
 import NewSletter from '../Components/NewSletter/NewSletter'
 import "./Home.css"
 
@@ -27,7 +27,7 @@ const Home = () => {
           <NewSletter/>
           <Footer/>
           <Communications/>
-          {/* <Hero/>   */}
+           <Hero/>
     </Fragment>
   )
 }
