@@ -2,7 +2,6 @@ import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
 import Heroimg from "../../Assests/Images/Heroimg.png"
 import Cloudimg from "../../Assests/Images/cloud.png"
-import RightArrow from "../../Assests/Images/rightArrow.png"
 import "./Hero.css"
 import { useState } from 'react'
 
@@ -45,7 +44,7 @@ export const Hero = () => {
     </Container>
     :
     <div className='RightArrow' onClick={LookHero}>
-        <img src={RightArrow} alt="" />
+        <i class=" ri-arrow-right-line"></i>
     </div>
     }
 </section>

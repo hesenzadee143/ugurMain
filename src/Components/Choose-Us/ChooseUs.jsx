@@ -15,14 +15,14 @@ const ChooseUs = () => {
                     <div className="choose_content">
                         <h2>Niyə bizi seçməlisiniz?</h2>
                         <h4>
-                        Üstünlüklərimiz: <br />
-                            🟣 Yüksək keyfiyyətli dərslər;<br />
-                            🟣 Ödənişsiz əlavə dərslər;<br />
-                            🟣 Peşəkar müəllim kollektivi;<br />
-                            🟣 Valideynlər ilə mütəmadi əlaqə;<br />
-                            🟣 Ödənişsiz sınaq imtahanları;<br />
-                            🟣 Təqaüd imkanı;<br />
-                            🟣 Endirimli qiymətlər; <br/>
+                        <div>Üstünlüklərimiz:</div>
+                            <div><span><i class="ri-checkbox-circle-line"></i></span>  Yüksək keyfiyyətli dərslər;</div>
+                            <div><span><i class="ri-checkbox-circle-line"></i></span>  Ödənişsiz əlavə dərslər;</div>
+                            <div><span><i class="ri-checkbox-circle-line"></i></span>  Peşəkar müəllim kollektivi;</div>
+                            <div><span><i class="ri-checkbox-circle-line"></i></span>  Valideynlər ilə mütəmadi əlaqə;</div>
+                            <div><span><i class="ri-checkbox-circle-line"></i></span>  Ödənişsiz sınaq imtahanları;</div>
+                            <div><span><i class="ri-checkbox-circle-line"></i></span>  Təqaüd imkanı;</div>
+                            <div><span><i class="ri-checkbox-circle-line"></i></span>  Endirimli qiymətlər;</div>
                                <button className='btn others'> <a href="#courses">və Digər Əlavə Məşğulliyyətlər</a></button>
                         </h4>
                     </div>

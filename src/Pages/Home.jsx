@@ -27,7 +27,7 @@ const Home = () => {
           <NewSletter/>
           <Footer/>
           <Communications/>
-           <Hero/>
+           {/* <Hero/> */}
     </Fragment>
   )
 }

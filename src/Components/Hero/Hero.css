@@ -1,10 +1,11 @@
 :root{
-    --main_color:#a514de;
-    --dark_color:#30143c;
+    --main_color:#148ade;
+    --dark_color:#14233c;
     --dark_green:#0a2b1e;
     --cyan_blue:#17bf9d44;
-    --main_transparent: rgb(241 226 248 / 66%);
-}
+    --dark_color_transparent:#14253c99;
+    --main_transparent: rgba(226, 239, 248, 0.66);
+ }
 
 .hero{
     position: fixed;
@@ -13,15 +14,15 @@
     left: 30px;
     z-index: 9999999;
 }
-.hero .RightArrow{
-    background: yellow;
-    border-radius: 20%;
+.hero .RightArrow i{
     position: fixed;
-    bottom: 30px;
-    left: -70px;
-    height: 10%;
+    bottom: 41px;
+    height: 21%;
     z-index: 9999999;
     cursor: pointer;
+    font-size: 3.5rem;
+    background: yellow;
+    border-radius: 20%;
 }
 .hero img{
     height: 100%;

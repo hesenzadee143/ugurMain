@@ -1,12 +1,16 @@
 :root{
-    --main_color:#a514de;
-    --dark_color:#30143c;
+    --main_color:#148ade;
+    --dark_color:#14233c;
     --dark_green:#0a2b1e;
     --cyan_blue:#17bf9d44;
-    --main_transparent: rgb(241 226 248 / 66%);
+    --dark_color_transparent:#14253c99;
+    --main_transparent: rgba(226, 239, 248, 0.66);
  }
 .choose_content{
 padding-right: 50px;
+}
+.choose_content div{
+    display: flex;
 }
 .others,.others:hover{
     color: white;
