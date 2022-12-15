@@ -96,7 +96,7 @@
         display: block;
     }
 }
-@media(max-width:377px){
+@media(max-width:768px){
     .logo{
         width: 100%;
     }
