@@ -37,10 +37,10 @@ const Header = () => {
             <div className="navigation d-flex align-items-center 
             justify-content-between ">
                 <div className="logo">
-                    <h2 className='d-flex align-items-center'>
+                    <h3 className='d-flex align-items-center'>
                         <img src={logoImg}
                          alt='logo' className='kLogo'/>UĞUR TM
-                    </h2>
+                    </h3>
                 </div>
                 <div className="nav d-flex align-items-center gap-5
                 " >

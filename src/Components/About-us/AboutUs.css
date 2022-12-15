@@ -8,7 +8,7 @@
  }
 .about_img{
     height: 85%;
-    width: 90%;
+    margin-top: 15px;    
 }
 img{
     height: 100%;
@@ -27,4 +27,9 @@ img{
 }
 .about_content{
     padding-left: 50px;
+}
+@media(max-width:377px){
+    .about_content{
+        padding: 0;
+    }
 }

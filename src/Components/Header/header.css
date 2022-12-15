@@ -12,6 +12,7 @@
     line-height: 80px;
     background: var(--main_transparent);
 }
+
 .kLogo{
     height: 70px;
     width: 70px;
@@ -93,5 +94,17 @@
     }
     .active_menu{
         display: block;
+    }
+}
+@media(max-width:377px){
+    .logo{
+        width: 100%;
+    }
+    .logo h3{
+        width: 100%;
+        justify-content: center;
+    }
+    .hero_content{
+        text-align: center;
     }
 }
