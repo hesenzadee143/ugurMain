@@ -5,6 +5,28 @@
   --cyan_blue:#17bf9d44;
   --main_transparent: rgba(226, 239, 248, 0.66);
 }
+meElement{
+  color: red;
+  background-color: var(--dark_color);
+  text-align: center;
+}
+meElement a{
+  color: var(--main_color);
+
+  text-decoration: underline;
+  display: block;
+}
+.App {
+  background: cadetblue;
+}
+meElement img{
+  max-height: 200px;
+  max-width: 200px;
+  margin: 20px;
+}
+meElement div h6{
+  color: black;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
