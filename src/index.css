@@ -11,7 +11,7 @@ meElement{
   text-align: center;
 }
 meElement a{
-  color: var(--main_color);
+  color: blue;
 
   text-decoration: underline;
   display: block;
@@ -24,6 +24,7 @@ meElement img{
   max-width: 200px;
   margin: 20px;
 }
+
 meElement div h6{
   color: black;
 }
