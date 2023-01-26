@@ -3,11 +3,16 @@
     --dark_color:#14233c;
     --dark_green:#0a2b1e;
     --cyan_blue:#17bf9d44;
+    --main_light: rgb(226, 239, 248);
     --dark_color_transparent:#14253c99;
     --main_transparent: rgba(226, 239, 248, 0.66);
  }
 .choose_content{
-padding-right: 50px;
+    background: var(--main_transparent);
+    border-radius: 10px;
+    padding: 8px;
+    padding-right: 50px;
+    margin-bottom: 10px;
 }
 .choose_content div{
     display: flex;

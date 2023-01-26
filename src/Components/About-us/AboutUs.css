@@ -27,6 +27,7 @@ img{
 }
 .about_content{
     padding-left: 50px;
+    margin-top: 30px;
 }
 @media(max-width:377px){
     .about_content{

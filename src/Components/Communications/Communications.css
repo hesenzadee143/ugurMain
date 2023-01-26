@@ -6,8 +6,9 @@
     font-size: 3.5rem;
 }
 #Communication >  i {
+    cursor: pointer;
     background: #fff819;
-    border-radius: 25%;
+    border-radius: 25%; 
 }
 .upPage{
     background: yellow;
@@ -20,7 +21,9 @@
     align-items: center;
     font-size: 2rem;
 }
+
 .ficons > span {
+    cursor: pointer;
     margin-bottom: -10px;
 }
 .ficons > span > a >i, .ficons > span > a >svg {

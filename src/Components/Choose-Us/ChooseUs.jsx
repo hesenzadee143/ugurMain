@@ -31,7 +31,7 @@ const ChooseUs = () => {
                     <div className="choose_img">
 
                     <ReactPlayer
-                        url="https://youtu.be/tvaHVVsCLIQ" controls
+                        url="https://youtu.be/nRmpWPEJWw4" controls
                         width="100%" height="300px"/>
                         {
                         //     showVideo?<ReactPlayer

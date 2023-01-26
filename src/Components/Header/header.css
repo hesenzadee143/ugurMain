@@ -3,6 +3,7 @@
     --dark_color:#14233c;
     --dark_green:#0a2b1e;
     --cyan_blue:#17bf9d44;
+    --main_light: rgb(226, 239, 248);
     --dark_color_transparent:#14253c99;
     --main_transparent: rgba(226, 239, 248, 0.66);
  }
@@ -10,7 +11,7 @@
     width: 100%;
     height: 100%;
     line-height: 80px;
-    background: var(--main_transparent);
+    background: var(--main_light);
 }
 
 .kLogo{

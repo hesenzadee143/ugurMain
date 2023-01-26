@@ -59,7 +59,7 @@ const Communications = () => {
             </a>
             </span> 
         </div>
-        :<> <a href='#'><i class="upPage ri-arrow-up-line"></i></a></>}
+        :<></>}
        <i onClick={IconGoster} title="Əlaqə vasitələri" class="ri-chat-smile-2-line"></i>
     </section>
   )

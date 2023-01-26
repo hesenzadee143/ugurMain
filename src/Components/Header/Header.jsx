@@ -32,7 +32,7 @@ const Header = () => {
 
   return (
     <>
-    <header id='header' className='header'>
+    <header id='header' className='header sticky-top'>
         <Container>
             <div className="navigation d-flex align-items-center 
             justify-content-between ">
@@ -55,12 +55,6 @@ const Header = () => {
                                 ))
                             }
                         </ul>
-                    </div>
-                    <div className="nav_right">
-                        <p className='mb-0 d-flex align-items-center
-                        gap-2 '>
-                            <i className="ri-phone-line"></i> 051 510 11 08
-                        </p>
                     </div>
                 </div>
 

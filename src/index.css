@@ -5,7 +5,7 @@
   --cyan_blue:#17bf9d44;
   --main_transparent: rgba(226, 239, 248, 0.66);
 }
-meElement{
+/* meElement{
   color: red;
   background-color: var(--dark_color);
   text-align: center;
@@ -18,7 +18,7 @@ meElement a{
 }
 .App {
   background: cadetblue;
-}
+} */
 meElement img{
   max-height: 200px;
   max-width: 200px;

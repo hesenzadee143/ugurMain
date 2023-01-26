@@ -8,10 +8,10 @@ import Footer from '../Components/Footer/Footer'
 import FreeCourse from '../Components/Free-Course-Section/FreeCourse'
 import Header from '../Components/Header/Header'
 import HeroSection from '../Components/Hero-Section/HeroSection'
-import { Hero } from '../Components/Hero/Hero'
+//import { Hero } from '../Components/Hero/Hero'
 import NewSletter from '../Components/NewSletter/NewSletter'
-import QR from "../Assests/Images/QR.jpeg"
-import QrWp from "../Assests/Images/qr-code.png"
+//import QR from "../Assests/Images/QR.jpeg"
+//import QrWp from "../Assests/Images/qr-code.png"
 import "./Home.css"
 
 
@@ -20,13 +20,13 @@ const Home = () => {
   return (
      <Fragment>
            <Header/>
-           <HeroSection/>
+          {/* <HeroSection/>*/}
+           <ChooseUs/>
            <AboutUs/>
            <Courses/>
-           <ChooseUs/>
            <FeatureSection/>
            <FreeCourse/>
-           <NewSletter/>
+           {/* <NewSletter/> */}
            <Footer/>
            <Communications/>
             {/* <Hero/> */}
