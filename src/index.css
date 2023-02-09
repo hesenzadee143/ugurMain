@@ -16,10 +16,10 @@ meElement a{
   text-decoration: underline;
   display: block;
 }
-.App {
+/* .App {
   background: cadetblue;
-} 
-meElement img{
+}  */
+/* meElement img{
   max-height: 200px;
   max-width: 200px;
   margin: 20px;
@@ -27,7 +27,7 @@ meElement img{
 
 meElement div h6{
   color: black;
-}
+} */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
